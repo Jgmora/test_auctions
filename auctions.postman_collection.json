@@ -1,0 +1,40 @@
+{
+	"id": "30cd6bb5-473d-bc3e-7af0-d14540f9ea55",
+	"name": "auctions",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "a5ea925e-33f5-1a4a-bf41-e9dd30043831",
+			"name": "auctions",
+			"description": "",
+			"order": [
+				"8adf3fbd-b8e6-8e4e-5e5d-21012e140f84"
+			],
+			"owner": "1468404"
+		}
+	],
+	"timestamp": 1489537624111,
+	"owner": "1468404",
+	"public": false,
+	"requests": [
+		{
+			"id": "8adf3fbd-b8e6-8e4e-5e5d-21012e140f84",
+			"headers": "user-data: eyJ1c2VySWQiOjEsInByb2ZpbGVJZCI6IjZjZTBhOGYwLTlhZjAtMTFlNi1hOGM2LTkxYmZiM2VjNTU5ZCIsImVudGl0eUlkIjoiNmNkYTY3NjAtOWFmMC0xMWU2LWE4YzYtOTFiZmIzZWM1NTlkIiwicm9sZXMiOnsiaW52ZXN0b3IiOlsiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiXSwic2VsbGVyIjpbImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl19fQ==\n",
+			"url": "dev.mesfix.com:3071/auctions",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1489538320021,
+			"name": "dev.mesfix.com:3071/auctions/589230a7d38c9207beea5a4a",
+			"description": "",
+			"collectionId": "30cd6bb5-473d-bc3e-7af0-d14540f9ea55",
+			"responses": []
+		}
+	]
+}
